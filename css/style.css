@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(201, 245, 143);
+    margin: 30px
+}
+
+h1{
+    color: lightslategrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+  color: blueviolet;  
+}
+p{
+    font-size: larger;
+    margin-right: 300px;
+}
+header{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: mediumseagreen;
+}
+
+
+footer{
+    background-color: cornflowerblue;
+    margin-bottom: 30px;
+    height: 20px;
+}
+.img-padrao{
+    margin-top: 20px;
+    width: 300px;
+}
+.logo{
+    width: 30px;
+}

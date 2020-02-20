@@ -4,29 +4,88 @@
     <head>
         <meta charset="utf-8">
         <title>Página inicial HTML</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
         <nav>
             <p>Minha Página</p>
             <ul>
-                <li>SERVIÇOS</li>
-                <li>CLIENTES</li>
-                <li>PARCEIROS</li>
-                <li>TIME</li>
-                <li>CONTATO</li>
+                <li><a href="#servicos">SERVIÇOS</a></li>
+                <li><a href="#clientes">CLIENTES</a></li>
+                <li><a href="#parceiros">PARCEIROS</a></li>
+                <li><a href="#time">TIME</a></li>
+                <li><a href="#contato">CONTATO</a></li>
             </ul>
         </nav>
         <header>
-            <h1>Minha Página</h1>
+            <h1>MINHA PÁGINA</h1>
             <p>Desenvolvimento de softwares, sites e apps para sua empresa</p>
             <p>Novo Paragráfo</p>
         </header>
-        <section>
-            
+        <section id = "servicos">
+            <h2>SERVIÇOS</h2>            
+            <p>Serviços serviços executados</p>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical 
+                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at 
+                Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, 
+                from a Lorem Ipsum passage, and going through the cites of the word in classical literature, 
+                discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 
+                "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
+                This book is a treatise on the theory of ethics, very popular during the Renaissance. 
+                The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+            <div>
+                <img src="img/site.jpg"  class="img-padrao">
+            </div>
+            <div>
+                <img src="img/app.jpg"  class="img-padrao">
+            </div>
         </section>
+        <section id="clientes">
+            <h2>CLIENTES</h2>
+            <p>Nossos clientes estão muito satisfeitos com nossos servicos</p>
+            <div>
+                <img src="img/cliente1.jpg" class="img-padrao">
+            </div>
+            <div>
+                <img src="img/cliente2.jpg" class="img-padrao">
+            </div>
+        </section>
+
+        <section id="parceiros">
+            <h2>PARCEIROS</h2>
+            <p>Nossos parceiros ajudam entregar a melhor solução para nossos clientes</p>
+            <div>
+                <a href="http://www.qualidata.com.br" target="_blank"><img src="img/parceiros.jpg" class="img-padrao"></a>
+            </div>
+        </section>
+        <section id="time">
+            <h2>TIME</h2>
+            <p>Nosso time de profissionais são altamente qualificado para melhor atender nossos clientes</p>
+            <div>
+                <img src="img/time1.jpg" class="img-padrao">
+            </div>
+            <div>
+                <img src="img/time2.jpg" class="img-padrao">
+            </div>
+        </section>
+        <section id="contato">
+            <h2>CONTATO</h2>
+            <p>Entre em contato conosco para fecharmos ótimos negocios</p>
+            <div>
+                <img src="img/contato.png" class="logo">
+                <div>
+                    <a href="mailto:32132132123">contato@minhapagina.com.br</a>
+                </div>
+                <div>
+                    <a href="tel:9999999999">(99)99999-9999</a>
+                </div>
+            </div>
+        </section>
+        
         <p>Minha primeira página</p>
+        
         <footer>
-            Desenvolvido pro José Abilio
+            Desenvolvido por José Abilio
         </footer>
     </body>
 </html>
